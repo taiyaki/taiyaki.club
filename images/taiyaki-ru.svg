@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="245"
+   height="40"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="taiyaki-ru.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2885"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2899"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2924"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       inkscape:collect="always"
+       id="filter3717"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3335937"
+         id="feGaussianBlur3719" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3725"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.42539063"
+         id="feGaussianBlur3727" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3733"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.36983166"
+         id="feGaussianBlur3735" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="118.98723"
+     inkscape:cy="-12.038562"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="818"
+     inkscape:window-height="769"
+     inkscape:window-x="4"
+     inkscape:window-y="46"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-249.69867,-292.54283)">
+    <image
+       sodipodi:absref="/home/kou/work/ruby/taiyaking/public/images/taiyaki-shadow.png"
+       xlink:href="taiyaki-shadow.png"
+       width="32.043354"
+       height="19.378269"
+       id="image2887"
+       x="404.28574"
+       y="304.2908" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text2941"
+       y="327.71933"
+       x="251.35715"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.49803922;stroke:none;filter:url(#filter3717);font-family:'きろ字 - B';-inkscape-font-specification:'きろ字 - B'"
+       xml:space="preserve"><tspan
+         y="327.71933"
+         x="251.35715"
+         id="tspan2943"
+         sodipodi:role="line">たいやき</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'きろ字 - B';-inkscape-font-specification:'きろ字 - B'"
+       x="249.35715"
+       y="325.71933"
+       id="text2816"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan2818"
+         x="249.35715"
+         y="325.71933">たいやき</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3721"
+       y="328.16522"
+       x="430.86887"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.49803922;stroke:none;filter:url(#filter3725);font-family:'きろ字 - B';-inkscape-font-specification:'きろ字 - B'"
+       xml:space="preserve"><tspan
+         dx="0"
+         y="328.16522"
+         x="430.86887"
+         id="tspan3723"
+         sodipodi:role="line">る</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'きろ字 - B';-inkscape-font-specification:'きろ字 - B'"
+       x="428.86887"
+       y="326.16522"
+       id="text2816-0"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan2818-1"
+         x="428.86887"
+         y="326.16522"
+         dx="0">る</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'きろ字 - B';-inkscape-font-specification:'きろ字 - B'"
+       x="560.84125"
+       y="81.341499"
+       id="text2816-0-0"
+       sodipodi:linespacing="100%"
+       transform="matrix(0.8927605,0.45053157,-0.45053157,0.8927605,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan2818-1-7"
+         x="560.84125"
+         y="81.341499">?</tspan></text>
+    <text
+       transform="matrix(0.8927605,0.45053157,-0.45053157,0.8927605,3.6428571,-1.7857143)"
+       sodipodi:linespacing="100%"
+       id="text3729"
+       y="85.461395"
+       x="561.08014"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0.49803922;stroke:none;filter:url(#filter3733);font-family:'きろ字 - B';-inkscape-font-specification:'きろ字 - B'"
+       xml:space="preserve"><tspan
+         y="85.461395"
+         x="561.08014"
+         id="tspan3731"
+         sodipodi:role="line">?</tspan></text>
+  </g>
+</svg>

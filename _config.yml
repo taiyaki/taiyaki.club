@@ -1,0 +1,8 @@
+title: たいやきる？たいやき部
+markdown: kramdown
+permalink: /blogs/:year/:month/:day/:title.html
+url: http://taiyaki.ru
+blog_base_url: /blogs/
+copyright_year: 2009-2015
+exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "README.md", "vendor"]
+description: たいやき屋をはしごするたいやきツアーを開催しているたいやき部。

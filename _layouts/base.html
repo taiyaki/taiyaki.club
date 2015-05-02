@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    {% capture title %}{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+    {% capture relative_path %}{{ page.url | remove_first: page.path_prefix | remove: "index.html" }}{% endcapture %}
+
+    {% if page.description %}
+      {% assign description = page.description %}
+    {% else %}
+      {% assign description = site.description %}
+    {% endif %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="/css/taiyaki.css" rel="stylesheet" media="screen">
+    <link href="{{ site.blog_base_url }}index.rdf" rel="alternate" type="application/rss+xml" title="RSS">
+    <meta name="description" content="{{ description }}">
+
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ site.url }}/images/icons/droonga-icon-full-size.png">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | remove:'index.html' }}">
+    <meta property="og:description" content="{{ description }}">
+  </head>
+
+  <body>
+    <header>
+      <div class="title">
+        <a href="/">
+          <h1><img alt="たいやきる？" src="/images/taiyaki-ru.png"></h1>
+          <span class="separator">-</span>
+          <span class="subtitle">「そして今、たいやきを目指して歩いているなあ」 - Mayu &amp; Co.</span>
+        </a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="/about/">たいやき部について</a></li>
+          <li><a href="/how-to-join/">入部案内</a></li>
+          <li><a href="/wiki/">活動情報</a></li>
+          <li><a href="/blog/">ブログ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      {% if page.title and page.show_title != false %}
+      <h2>{{ page.title }}</h2>
+      {% endif %}
+      {{ content }}
+    </div>
+
+    <div class="sidebar">
+      <div class="about-taiyaki-club">
+        <p><a href="/how-to-join/"><img alt="入部案内" src="/images/taiyaki-sign.png"></a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; {{ site.copyright_year }} たいやき部</p>
+      <p>ライセンス：<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+      <p><a href="https://github.com/taiyaki/taiyaki.ru/">ソース</a></p>
+    </footer>
+  </body>
+</html>

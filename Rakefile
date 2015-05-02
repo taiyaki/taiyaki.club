@@ -1,0 +1,3 @@
+# -*- ruby -*-
+
+require "bundler/setup"

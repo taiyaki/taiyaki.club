@@ -1,0 +1,188 @@
+---
+---
+
+html,
+body {
+    background-color: #caa05d;
+    background-color: #eedbbc;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #caa05d;
+
+    img {
+        border-width: 0;
+    }
+}
+
+a:visited {
+    color: #bc9659;
+}
+
+
+header {
+    padding-top: 5px;
+
+    div.title {
+        background: url(../images/mini-tailavi.png) no-repeat 5px 0px;
+        margin: 0;
+        margin-right: 220px;
+        height: 113px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+
+        a {
+            display: block;
+            height: 113px;
+        }
+
+        a,
+        a:link,
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+
+        span,
+        h1 {
+            display: block;
+            padding: 0;
+            padding-left: 150px;
+            margin: 0;
+            margin-bottom: 2px;
+        }
+
+        h1 {
+            padding-top: 20px;
+        }
+
+        span.separator {
+            display: none;
+        }
+
+        span.subtitle {
+            font-size: smaller;
+            text-shadow: 0.1em 0.1em 0.1em rgb(100, 100, 100);
+        }
+    }
+
+    nav {
+        position: relative;
+        /* background-color: #98514B; */
+        /* background-color: #946259; */
+        /* background-color: #860600; */
+        background: url(../images/menu-bar.png) repeat-x;
+        height: 31px;
+
+        ul {
+            display: inline;
+            font-weight: bold;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            padding-left: 25px;
+            position: absolute;
+            top: 5px;
+
+            li a,
+            li a:visited,
+            li a:link {
+                color: white;
+            }
+
+            li {
+                display: inline;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+div.content
+{
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 220px;
+    margin-bottom: 10px;
+    padding-left: 29px;
+    border: 1px solid grey;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    h2 {
+        text-shadow: 0.1em 0.1em 0.1em rgb(200, 200, 200);
+    }
+
+    div.recent-entries div.entry {
+        border-bottom: 1px dotted #caa05d;
+        margin-bottom: 1em;
+    }
+
+    div.entry {
+        h3 span.date {
+            font-size: smaller;
+            color: grey;
+        }
+
+        p.summary,
+        div.section {
+            padding-left: 1em;
+            padding-right: 2em;
+        }
+
+        div.section {
+            pre {
+                margin-left: 1em;
+                padding: 1em 0.5em;
+                border: 1px solid #caa05d;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+            }
+        }
+
+        div.footnote {
+            text-align: right;
+            padding-right: 1em;
+        }
+
+        div.metadata {
+            text-align: right;
+            padding-right: 1em;
+            font-size: smaller;
+
+            span.posted-at {
+                color: grey;
+            }
+        }
+    }
+}
+
+div.sidebar {
+    position: absolute;
+    top: 164px;
+    right: 0;
+    width: 210px;
+    border: 1px solid #caa05d;
+    /* background: url(../images/taiyaki-scale.png); */
+    background-color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    div.about-taiyaki-club {
+        padding-left: 10px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    p {
+        margin: 0;
+    }
+}
+
