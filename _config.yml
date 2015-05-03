@@ -4,6 +4,7 @@ permalink: /blog/:year/:month/:day/:title.html
 url: http://taiyaki.ru
 blog_base_url: /blog/
 copyright_year: 2009-2015
+author: たいやき部
 exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "README.md", "vendor"]
 description: たいやき屋をはしごするたいやきツアーを開催しているたいやき部。
 paginate: 5
