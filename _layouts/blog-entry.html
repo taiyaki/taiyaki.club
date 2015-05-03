@@ -1,0 +1,15 @@
+---
+layout: base
+---
+
+<article>
+  <div class="article-content">
+    {{ content }}
+  </div>
+
+  <ul class="metadata">
+    <li class="date">{{ page.date | date: '%Y-%m-%d' }}</li>
+    <li class="permlink"><a href="{{ page.url }}">この投稿へのリンク</a></li>
+  </ul>
+</article>
+

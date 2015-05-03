@@ -1,7 +1,6 @@
 ---
-layout: base
+layout: article
 title: 入部案内
-path_prefix: /how-to-join/
 ---
 
 たいやき部は誰でも入部することができます。会費などは徴収しません。

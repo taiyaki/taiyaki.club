@@ -1,7 +1,6 @@
 ---
-layout: base
+layout: article
 title: たいやき部について
-path_prefix: /about/
 ---
 
 たいやき部はたいやき屋をはしごしながらたいやきを楽しむ「たいやきツアー」を開催しているグループです。

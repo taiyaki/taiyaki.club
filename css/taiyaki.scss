@@ -100,7 +100,7 @@ header {
     }
 }
 
-div.content
+div.main-content
 {
     background-color: white;
     margin-top: 10px;
@@ -115,24 +115,23 @@ div.content
         text-shadow: 0.1em 0.1em 0.1em rgb(200, 200, 200);
     }
 
-    div.recent-entries div.entry {
-        border-bottom: 1px dotted #caa05d;
-        margin-bottom: 1em;
+    div.pager {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 1em;
     }
 
-    div.entry {
-        h3 span.date {
-            font-size: smaller;
-            color: grey;
-        }
+    article {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 1em;
+        border-top: 1px solid #caa05d;
 
-        p.summary,
-        div.section {
+        div.article-content {
             padding-left: 1em;
             padding-right: 2em;
-        }
 
-        div.section {
             pre {
                 margin-left: 1em;
                 padding: 1em 0.5em;
@@ -142,17 +141,22 @@ div.content
             }
         }
 
-        div.footnote {
+        ul.metadata {
+            display: block;
             text-align: right;
-            padding-right: 1em;
-        }
-
-        div.metadata {
-            text-align: right;
+            margin: 0;
+            padding: 0;
             padding-right: 1em;
             font-size: smaller;
 
-            span.posted-at {
+            li {
+                display: inline;
+                margin: 0;
+                padding: 0;
+                padding-left: 10px;
+            }
+
+            li.posted-at {
                 color: grey;
             }
         }

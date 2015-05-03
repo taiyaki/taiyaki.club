@@ -2,7 +2,6 @@
 <html lang="ja">
   <head>
     {% capture title %}{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
-    {% capture relative_path %}{{ page.url | remove_first: page.path_prefix | remove: "index.html" }}{% endcapture %}
 
     {% if page.description %}
       {% assign description = page.description %}
@@ -47,7 +46,7 @@
       </nav>
     </header>
 
-    <div class="content">
+    <div class="main-content">
       {% if page.title and page.show_title != false %}
       <h2>{{ page.title }}</h2>
       {% endif %}

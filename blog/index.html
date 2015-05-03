@@ -1,0 +1,27 @@
+---
+layout: base
+use_social_widgets: true
+title: ブログ
+---
+
+{% include pager.html %}
+
+{% for post in paginator.posts %}
+<article>
+  <h3>
+    <a href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </h3>
+
+  <div class="article-content">
+    {{ post.content }}
+  </div>
+
+  <ul class="metadata">
+    <li class="date">{{ post.date | date: '%Y-%m-%d' }}</li>
+  </ul>
+</article>
+{% endfor %}
+
+{% include pager.html %}

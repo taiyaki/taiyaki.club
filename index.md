@@ -1,6 +1,5 @@
 ---
 layout: base
-path_prefix: ""
 ---
 
 ## 臨時イベント情報
