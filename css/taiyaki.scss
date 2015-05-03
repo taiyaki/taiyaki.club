@@ -199,6 +199,14 @@ footer {
 
 @media screen and (max-width: $mobile_max_width) {
     header {
+        div.title {
+            h1 {
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+
         nav {
             ul {
                 padding-left: $mobile_page_padding_left;
