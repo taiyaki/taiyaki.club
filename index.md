@@ -55,6 +55,10 @@ layout: base
   * [[mixi] たい焼き、大好き！ - たい焼きを食べに行こう！！](http://mixi.jp/view_event.pl?id=40956741&comm_id=18263)
   * [[mixi] たい焼き、大好き！ - たい焼きを食べに行こう！！【その２】](http://mixi.jp/view_event.pl?id=45739646&comm_id=18263)
 
+### このサイトについて
+
+  * [taiyaki.ruの更新方法](/how-to-edit/)
+
 ### 過去のたいやき部活動記録
 
   * [http://qwik.jp/taiyaki/のバックアップ](/qwik/)（HTMLを直接閲覧）
