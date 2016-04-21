@@ -9,3 +9,4 @@ exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "README.md", "vendor"]
 description: たいやき屋をはしごするたいやきツアーを開催しているたいやき部。
 paginate: 5
 paginate_path: /blog/page:num/
+gems: [jekyll-paginate]
