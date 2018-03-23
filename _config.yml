@@ -3,7 +3,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title.html
 url: http://taiyaki.ru
 blog_base_url: /blog/
-copyright_year: 2009-2015
+copyright_year: 2009-2018
 author: たいやき部
 exclude:
 - Rakefile
