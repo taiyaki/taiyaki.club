@@ -62,7 +62,7 @@ layout: base
 
 ### このサイトについて
 
-  * [taiyaki.ruの更新方法](/how-to-edit/)
+  * [taiyaki.clubの更新方法](/how-to-edit/)
 
 ### 過去のたいやき部活動記録
 
