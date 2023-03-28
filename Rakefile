@@ -6,5 +6,5 @@ task :upload do
   sh("rsync",
      "-avz",
      "_site/",
-     "taiyaki@taiyaki.ru:public_html/")
+     "taiyaki@taiyaki.club:public_html/")
 end
