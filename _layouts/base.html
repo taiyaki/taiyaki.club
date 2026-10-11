@@ -12,10 +12,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon.png">
-    <link href="/css/taiyaki.css" rel="stylesheet" media="screen">
-    <link href="{{ site.blog_base_url }}index.rdf" rel="alternate" type="application/rss+xml" title="RSS">
+    <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}">
+    <link rel="icon" href="{{ "/favicon.png" | relative_url }}">
+    <link href="{{ "/css/taiyaki.css" | relative_url }}" rel="stylesheet" media="screen">
+    <link href="{% link blog/index.rdf %}" rel="alternate" type="application/rss+xml" title="RSS">
     <meta name="description" content="{{ description }}">
 
     <meta property="og:title" content="{{ title }}">
@@ -31,8 +31,8 @@
 
     <header>
       <div class="title">
-        <a href="/">
-          <h1><img alt="たいやきる？" src="/images/taiyaki-ru.png"></h1>
+        <a href="{% link index.md %}">
+          <h1><img alt="たいやきる？" src="{{ "/images/taiyaki-ru.png" | relative_url }}"></h1>
           <span class="separator">-</span>
           <span class="subtitle">「そして今、たいやきを目指して歩いているなあ」 - Mayu &amp; Co.</span>
         </a>
@@ -40,9 +40,9 @@
 
       <nav>
         <ul>
-          <li><a href="/about/">たいやき部について</a></li>
-          <li><a href="/how-to-join/">入部案内</a></li>
-          <li><a href="/blog/">ブログ</a></li>
+          <li><a href="{% link about/index.md %}">たいやき部について</a></li>
+          <li><a href="{% link how-to-join/index.md %}">入部案内</a></li>
+          <li><a href="{% link blog/index.html %}">ブログ</a></li>
         </ul>
       </nav>
     </header>
@@ -56,7 +56,7 @@
 
     <div class="sidebar">
       <div class="about-taiyaki-club">
-        <p><a href="/how-to-join/"><img alt="入部案内" src="/images/taiyaki-sign.png"></a>
+        <p><a href="{% link how-to-join/index.md %}"><img alt="入部案内" src="{{ "/images/taiyaki-sign.png" | relative_url }}"></a>
       </div>
     </div>
 
