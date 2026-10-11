@@ -2,7 +2,6 @@ title: たいやきる？たいやき部
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title.html
 url: https://taiyaki.club
-blog_base_url: /blog/
 author: たいやき部
 exclude:
 - Rakefile

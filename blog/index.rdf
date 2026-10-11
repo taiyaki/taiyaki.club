@@ -8,23 +8,23 @@ description: たいやき部の活動記録
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns="http://purl.org/rss/1.0/">
-  <channel rdf:about="{{ site.url }}{{ site.blog_base_url }}index.rdf">
+  <channel rdf:about="{{ page.url | absolute_url }}">
     <title>{{ page.title }}</title>
-    <link>{{ site.url }}{{ site.blog_base_url }}</link>
+    <link>{{ "/blog/" | absolute_url }}</link>
     <description>{{ page.description }}</description>
     <dc:creator>{{ site.author }}</dc:creator>
     <items>
       <rdf:Seq>
       {% for post in site.posts limit: 15 %}
-        <rdf:li resource="{{ site.url }}{{ post.url }}" />
+        <rdf:li resource="{{ post.url | absolute_url }}" />
       {% endfor %}
       </rdf:Seq>
     </items>
   </channel>
   {% for post in site.posts limit: 15 %}
-  <item rdf:about="{{ site.url }}{{ post.url }}">
+  <item rdf:about="{{ post.url | absolute_url }}">
     <title>{{ post.title }}</title>
-    <link>{{ site.url }}{{ post.url }}</link>
+    <link>{{ post.url | absolute_url }}</link>
     <dc:date>{{ post.date | date_to_xmlschema }}</dc:date>
     <description>{{ post.content | strip_html }}</description>
     <content:encoded>{{ post.content | xml_escape }}</content:encoded>
